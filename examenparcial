@@ -1,0 +1,16 @@
+def gestionar_bebida(temperatura,hora,bebida):
+  if temperatura<50:
+    print("Debe esperara que se caliente la bebida")
+  elif 50<= temperatura<=70:
+      if 6<= hora <= 11:
+        print("Se puede servir de inmediato,Bebidas calientes debe esperar a que se enfrie.")
+      else:
+        print("Bebida muy caliente,debe esperar a que se enfrie.")
+
+#Tipo de uso
+  Temperatura=float(input("Ingrese la temperatura en grados Celsius"))
+  hora = int(input("Ingrese la hora actual en formato 24 horas"))
+  tipo_bebida= input("Ingrese el tipo de bebida(cafe,té o chocolate caliente):")
+
+gestionar_bebida(temperatura, hora, bebida):
+--->
